@@ -1,0 +1,43 @@
+{
+  "name": "@stdlib/math-base-special-acovercos",
+  "version": "0.0.0",
+  "description": "Compute the inverse coversed cosine.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/math-base-special-acovercos.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "mathematics",
+    "math",
+    "acovercos",
+    "acovercosin",
+    "acovercosine",
+    "arccovercos",
+    "arccovercosin",
+    "versed cosine",
+    "acovercosinus",
+    "acvc",
+    "arc",
+    "versed",
+    "coversed",
+    "cosine",
+    "cos",
+    "asin",
+    "trig",
+    "trigonometry",
+    "radians",
+    "angle"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
