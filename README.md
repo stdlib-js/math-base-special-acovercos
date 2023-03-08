@@ -30,10 +30,14 @@ The [inverse coversed cosine][inverse-coversed-cosine] is defined as
 
 <!-- <equation class="equation" label="eq:arccovercosine" align="center" raw="\operatorname{acovercos}(\theta) = \arcsin(1+\theta)" alt="Inverse coversed cosine."> -->
 
-<div class="equation" align="center" data-raw-text="\operatorname{acovercos}(\theta) = \arcsin(1+\theta)" data-equation="eq:arccovercosine">
+```math
+\operatorname{acovercos}(\theta) = \arcsin(1+\theta)
+```
+
+<!-- <div class="equation" align="center" data-raw-text="\operatorname{acovercos}(\theta) = \arcsin(1+\theta)" data-equation="eq:arccovercosine">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@bb29798906e119fcb2af99e94b60407a270c9b32/lib/node_modules/@stdlib/math/base/special/acovercos/docs/img/equation_arccovercosine.svg" alt="Inverse coversed cosine.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -191,7 +195,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
