@@ -30,8 +30,8 @@ var acovercos = require( './../../dist' );
 
 // FIXTURES //
 
-var data = require( './../..xtures/julia/data.json' );
-var smallNegative = require( './../..xtures/julia/small_negative.json' );
+var data = require( './../fixtures/julia/data.json' );
+var smallNegative = require( './../fixtures/julia/small_negative.json' );
 
 
 // TESTS //
