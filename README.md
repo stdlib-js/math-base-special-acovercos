@@ -63,7 +63,7 @@ The [inverse coversed cosine][inverse-coversed-cosine] is defined as
 ## Usage
 
 ```javascript
-import acovercos from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-acovercos@deno/mod.js';
+import acovercos from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-acovercos@v0.1.1-deno/mod.js';
 ```
 
 #### acovercos( x )
@@ -106,7 +106,7 @@ v = acovercos( NaN );
 
 ```javascript
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@deno/mod.js';
-import acovercos from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-acovercos@deno/mod.js';
+import acovercos from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-acovercos@v0.1.1-deno/mod.js';
 
 var x = linspace( -2.0, 0.0, 100 );
 
