@@ -56,14 +56,32 @@ The [inverse coversed cosine][inverse-coversed-cosine] is defined as
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-acovercos
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import acovercos from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-acovercos@esm/index.mjs';
+var acovercos = require( '@stdlib/math-base-special-acovercos' );
 ```
 
 #### acovercos( x )
@@ -104,14 +122,9 @@ v = acovercos( NaN );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@esm/index.mjs';
-import acovercos from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-acovercos@esm/index.mjs';
+```javascript
+var linspace = require( '@stdlib/array-base-linspace' );
+var acovercos = require( '@stdlib/math-base-special-acovercos' );
 
 var x = linspace( -2.0, 0.0, 100 );
 
@@ -119,10 +132,6 @@ var i;
 for ( i = 0; i < x.length; i++ ) {
     console.log( acovercos( x[ i ] ) );
 }
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -155,7 +164,7 @@ for ( i = 0; i < x.length; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -209,8 +218,11 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 
 [deno-url]: https://github.com/stdlib-js/math-base-special-acovercos/tree/deno
+[deno-readme]: https://github.com/stdlib-js/math-base-special-acovercos/blob/deno/README.md
 [umd-url]: https://github.com/stdlib-js/math-base-special-acovercos/tree/umd
+[umd-readme]: https://github.com/stdlib-js/math-base-special-acovercos/blob/umd/README.md
 [esm-url]: https://github.com/stdlib-js/math-base-special-acovercos/tree/esm
+[esm-readme]: https://github.com/stdlib-js/math-base-special-acovercos/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/math-base-special-acovercos/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-base-special-acovercos/main/LICENSE
@@ -219,13 +231,13 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/acoversin]: https://github.com/stdlib-js/math-base-special-acoversin/tree/esm
+[@stdlib/math/base/special/acoversin]: https://github.com/stdlib-js/math-base-special-acoversin
 
-[@stdlib/math/base/special/avercos]: https://github.com/stdlib-js/math-base-special-avercos/tree/esm
+[@stdlib/math/base/special/avercos]: https://github.com/stdlib-js/math-base-special-avercos
 
-[@stdlib/math/base/special/covercos]: https://github.com/stdlib-js/math-base-special-covercos/tree/esm
+[@stdlib/math/base/special/covercos]: https://github.com/stdlib-js/math-base-special-covercos
 
-[@stdlib/math/base/special/vercos]: https://github.com/stdlib-js/math-base-special-vercos/tree/esm
+[@stdlib/math/base/special/vercos]: https://github.com/stdlib-js/math-base-special-vercos
 
 <!-- </related-links> -->
 
