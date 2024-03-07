@@ -245,3 +245,8 @@ jobs:
             test_install.yml,
             publish.yml
           access_token: ${{ github.token }}
+
+# Workflow permissions:
+permissions:
+  contents: write
+  id-token: write
