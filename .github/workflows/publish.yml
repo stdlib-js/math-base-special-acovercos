@@ -201,11 +201,9 @@ jobs:
 
       # Publish package to npm:
       - name: 'Publish package to npm'
-        # Pin action to full length commit SHA
-        uses: JS-DevTools/npm-publish@4b07b26a2f6e0a51846e1870223e545bae91c552 # v3.0.1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          access: public
+        run: npm publish --provenance --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       # Discard any uncommitted changes:
       - name: 'Discard any uncommitted changes'
