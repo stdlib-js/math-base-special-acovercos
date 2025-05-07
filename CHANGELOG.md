@@ -32,6 +32,7 @@
 
 <details>
 
+-   [`8e7f070`](https://github.com/stdlib-js/stdlib/commit/8e7f070904a67018db503b79a705b669773710d8) - **chore:** clean-up _(by Karan Anand)_
 -   [`6a4f52a`](https://github.com/stdlib-js/stdlib/commit/6a4f52a9c96dbdc023c2d85eaf1c33d8749a4202) - **docs:** correct domain of inverse coversed cosine _(by Karan Anand)_
 -   [`e525deb`](https://github.com/stdlib-js/stdlib/commit/e525debf09ec10ada9ec72ea4674ee9fd8e049cb) - **fix:** use correct inverse coversed cosine formula _(by Karan Anand)_
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
