@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-07)
+## Unreleased (2025-05-08)
 
 <section class="bug-fixes">
 
@@ -32,6 +32,7 @@
 
 <details>
 
+-   [`3ef5f68`](https://github.com/stdlib-js/stdlib/commit/3ef5f684d03d3ecca3e7c2e68d1f02a383c8ba09) - **test:** fix description _(by Athan Reines)_
 -   [`8e7f070`](https://github.com/stdlib-js/stdlib/commit/8e7f070904a67018db503b79a705b669773710d8) - **chore:** clean-up _(by Karan Anand)_
 -   [`6a4f52a`](https://github.com/stdlib-js/stdlib/commit/6a4f52a9c96dbdc023c2d85eaf1c33d8749a4202) - **docs:** correct domain of inverse coversed cosine _(by Karan Anand)_
 -   [`e525deb`](https://github.com/stdlib-js/stdlib/commit/e525debf09ec10ada9ec72ea4674ee9fd8e049cb) - **fix:** use correct inverse coversed cosine formula _(by Karan Anand)_
