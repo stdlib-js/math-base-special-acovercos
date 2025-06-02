@@ -51,14 +51,32 @@ The [inverse coversed cosine][inverse-coversed-cosine] is defined as
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-acovercos
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import acovercos from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-acovercos@esm/index.mjs';
+var acovercos = require( '@stdlib/math-base-special-acovercos' );
 ```
 
 #### acovercos( x )
@@ -99,25 +117,16 @@ v = acovercos( NaN );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
-import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import acovercos from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-acovercos@esm/index.mjs';
+```javascript
+var uniform = require( '@stdlib/random-array-uniform' );
+var logEachMap = require( '@stdlib/console-log-each-map' );
+var acovercos = require( '@stdlib/math-base-special-acovercos' );
 
 var x = uniform( 100, 0.0, 2.0, {
     'dtype': 'float64'
 });
 
 logEachMap( 'acovercos(%0.4f) = %0.4f', x, acovercos );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -126,7 +135,88 @@ logEachMap( 'acovercos(%0.4f) = %0.4f', x, acovercos );
 
 <!-- C interface documentation. -->
 
+* * *
 
+<section class="c">
+
+## C APIs
+
+<!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
+
+<section class="intro">
+
+</section>
+
+<!-- /.intro -->
+
+<!-- C usage documentation. -->
+
+<section class="usage">
+
+### Usage
+
+```c
+#include "stdlib/math/base/special/acovercos.h"
+```
+
+#### stdlib_base_acovercos( x )
+
+Computes the [inverse coversed cosine][inverse-coversed-cosine] of a double-precision floating-point number.
+
+```c
+double out = stdlib_base_acovercos( 3.141592653589793/2.0 );
+// returns ~0.6075
+```
+
+The function accepts the following arguments:
+
+-   **x**: `[in] double` input value.
+
+```c
+double stdlib_base_acovercos( const double x );
+```
+
+</section>
+
+<!-- /.usage -->
+
+<!-- C API usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
+<section class="notes">
+
+</section>
+
+<!-- /.notes -->
+
+<!-- C API usage examples. -->
+
+<section class="examples">
+
+### Examples
+
+```c
+#include "stdlib/math/base/special/acovercos.h"
+#include <stdio.h>
+
+int main( void ) {
+    const double x[] = { 0.0, 0.27, 0.56, 0.78, 1.67, 1.70, 1.78, 1.80, 1.89, 2.0 };
+
+    double v;
+    int i;
+    for ( i = 0; i < 10; i++ ) {
+        v = stdlib_base_acovercos( x[ i ] );
+        printf( "acovercos(%lf) = %lf\n", x[ i ], v );
+    }
+}
+```
+
+</section>
+
+<!-- /.examples -->
+
+</section>
+
+<!-- /.c -->
 
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
@@ -154,7 +244,7 @@ logEachMap( 'acovercos(%0.4f) = %0.4f', x, acovercos );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -221,13 +311,13 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/acoversin]: https://github.com/stdlib-js/math-base-special-acoversin/tree/esm
+[@stdlib/math/base/special/acoversin]: https://github.com/stdlib-js/math-base-special-acoversin
 
-[@stdlib/math/base/special/avercos]: https://github.com/stdlib-js/math-base-special-avercos/tree/esm
+[@stdlib/math/base/special/avercos]: https://github.com/stdlib-js/math-base-special-avercos
 
-[@stdlib/math/base/special/covercos]: https://github.com/stdlib-js/math-base-special-covercos/tree/esm
+[@stdlib/math/base/special/covercos]: https://github.com/stdlib-js/math-base-special-covercos
 
-[@stdlib/math/base/special/vercos]: https://github.com/stdlib-js/math-base-special-vercos/tree/esm
+[@stdlib/math/base/special/vercos]: https://github.com/stdlib-js/math-base-special-vercos
 
 <!-- </related-links> -->
 
