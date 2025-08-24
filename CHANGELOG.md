@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-21)
+## Unreleased (2025-08-24)
 
 <section class="bug-fixes">
 
@@ -32,6 +32,7 @@
 
 <details>
 
+-   [`bb8477e`](https://github.com/stdlib-js/stdlib/commit/bb8477eb9740ed7973d48d8c28fdfd07c3b5c793) - **chore:** add structured package data for `math/base/special/acovercos` [(#7948)](https://github.com/stdlib-js/stdlib/pull/7948) _(by Gunj Joshi)_
 -   [`3ef5f68`](https://github.com/stdlib-js/stdlib/commit/3ef5f684d03d3ecca3e7c2e68d1f02a383c8ba09) - **test:** fix description _(by Athan Reines)_
 -   [`8e7f070`](https://github.com/stdlib-js/stdlib/commit/8e7f070904a67018db503b79a705b669773710d8) - **chore:** clean-up _(by Karan Anand)_
 -   [`6a4f52a`](https://github.com/stdlib-js/stdlib/commit/6a4f52a9c96dbdc023c2d85eaf1c33d8749a4202) - **docs:** correct domain of inverse coversed cosine _(by Karan Anand)_
@@ -57,9 +58,10 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Gunj Joshi
 -   Karan Anand
 -   Philipp Burckhardt
 
