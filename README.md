@@ -58,7 +58,7 @@ The [inverse coversed cosine][inverse-coversed-cosine] is defined as
 ## Usage
 
 ```javascript
-import acovercos from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-acovercos@deno/mod.js';
+import acovercos from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-acovercos@v0.2.5-deno/mod.js';
 ```
 
 #### acovercos( x )
@@ -102,7 +102,7 @@ v = acovercos( NaN );
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import acovercos from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-acovercos@deno/mod.js';
+import acovercos from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-acovercos@v0.2.5-deno/mod.js';
 
 var x = uniform( 100, 0.0, 2.0, {
     'dtype': 'float64'
